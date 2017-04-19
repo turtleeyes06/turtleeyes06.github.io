@@ -1,0 +1,32 @@
+This directory contains Nick Carroll's submission for
+CSE 5542 Spring 2017 lab4.
+
+** Describes how to use your program
+
+To use, open the lab04.html. The control of different objects is changed
+by html button and each object can be rotated on a given axis, also changed
+by html button, using the mouse. Each object can also be moved around the screen
+according to their local coordinates with the following commands:
+  f - forward
+  b - backwards
+  u - up
+  d - down
+  l - left
+  r - right
+
+p and q will rotate the camera around its z axis. The camera's 'look at' can also
+be altered by html buttons.
+
+The hierarchy for this object is the following:
+
+body - cab
+body - front wheel
+body - back wheel
+body - pole - pole top
+
+** States which bonus tasks you attempted
+  I only attempted to create an interesting object. I chose to use the wire
+  frame for the body as it allowed for more visibility of the other objects.
+
+** Lists which browser/OS you developed your code on (just in case)
+  I developed this code using Microsoft windows 10 and the Firefox browser
